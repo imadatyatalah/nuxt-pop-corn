@@ -27,7 +27,7 @@ export default {
 
   buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss', '@nuxt/image'],
 
-  modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
+  modules: ['@nuxtjs/axios', '@nuxtjs/pwa', '@nuxtjs/dayjs'],
 
   axios: {},
 
