@@ -21,7 +21,7 @@ export default {
     },
   },
 
-  plugins: [],
+  plugins: ['~/plugins/filters'],
 
   components: true,
 
