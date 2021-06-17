@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style scoper>
+<style scoped>
 img {
   border-radius: 0.375rem;
 }
