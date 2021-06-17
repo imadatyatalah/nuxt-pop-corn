@@ -1,7 +1,7 @@
 export const genres = {
   computed: {
     genres() {
-      return this.movie.genres?.map(({ name }) => name).join(', ')
+      return this.item.genres?.map(({ name }) => name).join(', ')
     },
   },
 }
