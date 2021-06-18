@@ -11,8 +11,8 @@
 
           <div class="pt-4">
             <p>
-              <tag>{{ item.release_date | date }}</tag>
               <tag>{{ genres }}.</tag>
+              <tag>{{ item.release_date | date }}</tag>
               <tag v-if="item.runtime !== 0">{{ runtime }}</tag>
             </p>
 

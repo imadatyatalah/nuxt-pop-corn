@@ -11,6 +11,8 @@
 
           <div class="pt-4">
             <p>
+              <tag>{{ genres }}.</tag>
+
               <tag>
                 {{ item.number_of_seasons }}
                 {{ item.number_of_seasons === 1 ? 'Season' : 'Seasons' }}
@@ -21,7 +23,6 @@
                 {{ item.number_of_episodes === 1 ? 'Episode' : 'Episodes' }}
               </tag>
 
-              <tag>{{ genres }}.</tag>
               <tag>{{ episodesRuntime }}</tag>
             </p>
 
