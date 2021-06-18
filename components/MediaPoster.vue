@@ -10,8 +10,7 @@
 </template>
 
 <script>
-import { poster } from '@/mixins/mediaPoster'
-import { title } from '@/mixins/mediaTitle'
+import { poster, title } from '@/mixins/details'
 
 export default {
   name: 'MediaPoster',

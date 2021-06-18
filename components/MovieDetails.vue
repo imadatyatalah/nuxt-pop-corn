@@ -55,9 +55,7 @@
 </template>
 
 <script>
-import { genres } from '@/mixins/mediaGenres'
-import { runtime } from '@/mixins/runtime'
-import { directors } from '@/mixins/mediaDirector'
+import { genres, runtime, directors } from '@/mixins/details'
 import MediaPoster from '@/components/MediaPoster.vue'
 import Tag from '@/components/Tag.vue'
 
