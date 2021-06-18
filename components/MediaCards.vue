@@ -2,7 +2,7 @@
   <div class="flex justify-center">
     <div class="cardContainer">
       <div v-for="item of items.results" :key="item.id">
-        <div class="m-3 shadow-lg hover:shadow-xl">
+        <div class="shadow-lg hover:shadow-xl">
           <nuxt-link :to="'/' + mediaType + '/' + item.id">
             <media-poster :media="item" />
           </nuxt-link>
@@ -34,6 +34,6 @@ export default {
 
 <style scoped>
 .cardContainer {
-  @apply sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5;
+  @apply sm:grid sm:gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5;
 }
 </style>
